@@ -1,0 +1,3 @@
+#ignore subdirectories used for building documentation
+xml/
+_build/

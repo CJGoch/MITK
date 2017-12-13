@@ -27,7 +27,10 @@ read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
 
 if read_the_docs_build:
 
-    subprocess.call('cd ../doxygen; doxygen', shell=True)
+    subprocess.call('cd ../; doxygen doxygen.conf', shell=True)
+
+breathe_projects = { "MITK": "xml/" }
+breathe_default_project = "MITK"
 
 # -- General configuration ------------------------------------------------
 
@@ -38,7 +41,7 @@ if read_the_docs_build:
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = []
+extensions = ['breathe']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

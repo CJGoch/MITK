@@ -9,7 +9,12 @@ Welcome to MITK's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
+.. doxygenindex::
+.. doxygenfunction::
+.. doxygenstruct::
+.. doxygenenum::
+.. doxygentypedef::
+.. doxygenclass::
 
 
 Indices and tables
