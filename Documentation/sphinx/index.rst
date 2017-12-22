@@ -5,16 +5,11 @@
 
 Welcome to MITK's documentation!
 ================================
-
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
-.. doxygenindex::
-.. doxygenfunction::
-.. doxygenstruct::
-.. doxygenenum::
-.. doxygentypedef::
-.. doxygenclass::
+
+   docs/3-DeveloperManual/DeveloperManualPortal
 
 
 Indices and tables
